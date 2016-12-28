@@ -40,6 +40,7 @@ public class VendingMachine {
     }
 
     public int getRunningSalesTotal() {
+
         return runningSalesTotal;
     }
 
@@ -52,5 +53,6 @@ public class VendingMachine {
         AbstractChooser.Location location = chooser.locationFromInput(input);
         return bins[location.getRow()][location.getColumn()];
     }
+
 
 }
